@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+  background-color: #8fbc94;
+  font-family: "Baloo Bhai 2", sans-serif;
+  text-align: center;
+  font-size: 18px;
+}
+#h1{
+    font-size: 2.5rem;
+    color:#231A26;
+    margin-top: 20px;
+}
+.container {
+    height: 70vh;
+
+}
+.game{
+    height: 60vmin;
+    width: 65vmin;
+    display: flex;
+    gap: 1.9vmin;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #c4478ac0;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin: 50px auto;
+    border-radius: 20px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    background-color: #f9dff7;
+    border: none;
+    border-radius: 17px;
+    font-size: 10.5vmin;
+    font-family: "Baloo Bhai 2", sans-serif;
+  text-align: center;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+  text-shadow: 2px 2px 5px rgb(95, 98, 94);
+  color: rgb(80, 21, 51);
+}
+.reset{
+    height: 3rem;
+    width: 7rem;
+    background-color: #B27092;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+    font-weight: 500;
+    font-family: "baloo bhai 2", sans-serif;
+    cursor: pointer;
+    color:whitesmoke;
+    margin-bottom: 30px;
+}
+.newbtn{
+    height: 3rem;
+    width: 10rem;
+    background-color: #B27092;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+    font-weight: 500;
+    font-family: "baloo bhai 2", sans-serif;
+    cursor: pointer;
+    color:whitesmoke;
+    margin-left: 10px;
+}
+.msg{
+    font-size: 1.5rem;
+    color: #231A26;
+    margin-top: 10px;
+    font-weight: bold;
+    font-family: "Baloo Bhai 2", sans-serif;
+}
+.hide{
+    display: none;
+}
+.box:hover{
+    cursor: pointer;
+    background-color: #f0c9e0;
+    transform: scale(1.05);
+}
+.game:hover{
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.6);
+}
+.reset:hover, .newbtn:hover{
+    cursor: pointer;
+    background-color: #a15b7c;
+    transform: scale(1.05);
+}
